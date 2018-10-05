@@ -1,0 +1,202 @@
+/* ------------------------------------ *\
+  #Resets
+\* ------------------------------------ */
+
+/**
+ * A very simple reset that sits on top of Normalize.css.
+ */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+form,
+fieldset,
+legend,
+figure,
+table,
+th,
+td,
+caption,
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+/**
+ * Minor form resets
+ */
+
+input,
+label,
+select,
+button,
+textarea {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  appearance: none;
+  background: none;
+  border-radius: 0;
+  color: inherit;
+  font: inherit;
+  outline: 0;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+fieldset {
+  border: 0;
+}
+
+button {
+  letter-spacing: inherit;
+  text-transform: inherit;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+select {
+  &::-ms-expand {
+    display: none;
+  }
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+
+  &::-ms-check {
+    display: none;
+  }
+}
+
+/* ------------------------------------ *\
+  Links
+\* ------------------------------------ */
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+a,
+button,
+input,
+select,
+textarea,
+label,
+summary {
+  touch-action: manipulation;
+}
+
+/* ------------------------------------ *\
+  Lists
+\* ------------------------------------ */
+
+/**
+ * Remove trailing margins from nested lists.
+ */
+
+ul,
+ol {
+  list-style: none;
+}
+
+li > {
+  & ul,
+  & ol {
+    margin-bottom: 0;
+  }
+}
+
+/* ------------------------------------ *\
+  Media
+\* ------------------------------------ */
+
+img {
+  max-width: 100%;
+  height: auto;
+  font-style: italic;
+  vertical-align: middle;
+  &[src*=".svg"] {
+    width: 100% \9;
+  }
+  a & {
+    border: none;
+  }
+}
+
+_::-ms-reveal,
+img[src*=".svg"] {
+  width: 100%;
+}
+
+audio,
+canvas,
+iframe,
+video,
+svg {
+  vertical-align: middle;
+}
+
+iframe,
+object {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+}
+
+/**
+ * SVG reset.
+ */
+
+svg {
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  fill: currentColor;
+}
+
+.accessibility {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+}
