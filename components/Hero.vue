@@ -1,7 +1,7 @@
 <template>
 <section class="Hero">
   <div class="Hero__copy">
-    <h1>The Seasons delivered</h1>
+    <h1>{{ title }}</h1>
     <p>We source fresh, beautiful and seasonal flowers, and deliver them to your home.</p>
   </div>
 </section>
@@ -9,7 +9,12 @@
 
 <script>
 export default {
-name: 'Hero'
+name: 'Hero',
+data() {
+  return {
+    title: 'The Seasons delivered'
+  }
+}
 }
 </script>
 
