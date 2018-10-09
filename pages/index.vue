@@ -1,13 +1,18 @@
 <template>
-  <Intro />
+  <div>
+    <Header />
+    <Peaker />
+  </div>
 </template>
 
 <script>
-import Intro from '@/components/Intro.vue'
+import Header from '@/components/Header.vue'
+import Peaker from '@/components/Peaker.vue'
 
 export default {
   components: {
-    Intro
+    Header,
+    Peaker
   }
 }
 </script>
