@@ -1,13 +1,13 @@
 <template>
-  <Intro />
+  <Header />
 </template>
 
 <script>
-import Intro from '@/components/Intro.vue'
+import Header from '@/components/Header.vue'
 
 export default {
   components: {
-    Intro
+    Header
   }
 }
 </script>

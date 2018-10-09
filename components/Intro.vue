@@ -2,7 +2,7 @@
   <section class="Intro">
     <div class="Intro__wrapper">
       <h1 class="Intro__title">
-        Rotate° Interview
+        Hello World
       </h1>
       <h2 class="Intro__subtitle">Please read the README before you start.</h2>
     </div>
