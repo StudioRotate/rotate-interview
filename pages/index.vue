@@ -1,13 +1,13 @@
 <template>
-  <Intro />
+  <Flower />
 </template>
 
 <script>
-import Intro from '@/components/Intro.vue'
+import Flower from '@/components/Flower.vue'
 
 export default {
   components: {
-    Intro
+    Flower
   }
 }
 </script>
