@@ -1,5 +1,9 @@
 <template>
 <section class="Header">
+<div class="Header_Menu">
+  <img src="imgs/rectangle.svg" alt="Menu" class="Menu" >
+  <img src="imgs/rectangle_menu.svg" alt="Menu2" class="Menu2">
+</div>
   <div class="Header_Wrapper">
   <img src="imgs/logo-large.svg" alt="Logo" class="Logo">
   </div>
@@ -9,9 +13,7 @@
 <div class="Header_Cart">
   <img src="imgs/cart.svg" alt="Cart" class="Cart">
 </div>
-<div class="Header_Menu">
-  <img src="" >
-</div>
+
 </section>
 </template>
 
@@ -47,7 +49,7 @@ name: 'Header'
   .Header_Menu {
     width: 20px;
     padding-left: 40px;
-    padding-right: 20px
+    padding-right: 45px
   }
 
 
