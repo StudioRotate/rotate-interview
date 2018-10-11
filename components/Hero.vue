@@ -1,8 +1,8 @@
 <template>
 <section class="Hero">
   <div class="Hero__copy">
-    <h1>{{ title }}</h1>
-    <p>We source fresh, beautiful and seasonal flowers, and deliver them to your home.</p>
+    <h1>{{ title1 }}</h1>
+    <h4>{{ paragraph }}</h4>
   </div>
 </section>
 </template>
@@ -12,7 +12,8 @@ export default {
 name: 'Hero',
 data() {
   return {
-    title: 'The Seasons delivered'
+    title1: 'The Seasons, delivered',
+    paragraph: 'We source fresh, beautiful and seasonal flowers, and deliver them to your home.'
   }
 }
 }
@@ -35,8 +36,10 @@ data() {
 }
 
 .Hero__copy {
-  max-width: 400px;
+  max-width: 250px;
   margin: 0 auto;
   font-family: "Leighton Light";
+  text-align: center;
 }
+
 </style>
