@@ -4,6 +4,9 @@
     <h1>{{ title1 }}</h1>
     <h4>{{ paragraph }}</h4>
   </div>
+  <div class="Hero_button">
+  <img src="imgs/hero-button.svg" alt="Home_Button" class="Home_button">
+  </div>
 </section>
 </template>
 
