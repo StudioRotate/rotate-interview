@@ -3,7 +3,7 @@
 <div class="Header_Menu">
   <img src="imgs/rectangle.svg" alt="Menu" class="Menu">
 </div>
-  <div class="Header_Wrapper">
+  <div class="Header_Logo">
   <img src="imgs/logo-large.svg" alt="Logo" class="Logo">
   </div>
   <div class="Header_Account">
@@ -33,13 +33,15 @@ name: 'Header'
     padding-left: 30px;
   }
 
-  .Header_Wrapper {
+  .Header_Logo {
     width: 137px;
   }
+
   .Header_Cart {
     width: 24.44px;
     padding-right: 30px;
   }
+
   .Header_Account {
     width: 20px;
     padding-left: 40px;

@@ -3,9 +3,9 @@
   <div class="Hero__copy">
     <h1>{{ title1 }}</h1>
     <h4>{{ paragraph }}</h4>
-  </div>
   <div class="Hero_button">
-  <img src="imgs/hero-button.svg" alt="Home_Button" class="Home_button">
+    <img src="imgs/hero_button.svg" alt="Home_Button" class="Home_button">
+  </div>
   </div>
 </section>
 </template>
@@ -27,15 +27,28 @@ data() {
     font-family: "Leighton Light";
     src: url("/fonts/leighton-light.woff2");
 }
-
 .Hero {
     display: flex;
     flex: column nowrap;
     align-items: center;
     justify-content: center;
-    background: url("/imgs/home_hero.jpg") center;
-    background-size: cover;
+    background: center;
     height: 90vh;
+}
+
+@media screen and (min-width: 401 px) {
+  .Hero {
+  background-image: url(/imgs/hero_background_desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat
+   }
+}
+@media screen and (max-width: 400px) {
+    .Hero {
+    background-image: url(/imgs/home_hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
 }
 
 .Hero__copy {
@@ -44,5 +57,10 @@ data() {
   font-family: "Leighton Light";
   text-align: center;
 }
+
+.Hero_button {
+  padding-top: 30px;
+}
+
 
 </style>
