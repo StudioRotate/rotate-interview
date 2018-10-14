@@ -52,3 +52,10 @@ At Rotate° we use Git Flow as our version control process which you may or may 
 
 
 > This project is structured using the Nuxt.js framework. For a detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+## Product 
+## Process of development 
+- Mobile first
+  During the interview session I began developing the Mobile version of the page, so began by introducing the core elements of the page, and had the hero, logo, cart and account icons introduced on the page. I also included the main text. The formatting wasn't right when I left it, and I still didn't have the menu icon or 'Pick yours' button on the page. I learnt about flexbox, and much more about CSS styling. 
+  I spent some time researching more about CSS but came to realise the best process of learning would happen if I tried to learn as I went, specifying my research to the project at hand. 
+## What I would do with more time 
