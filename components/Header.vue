@@ -108,28 +108,26 @@ export default {
 
 @media screen and (min-width: 426px) {
   .Account_Text {
-    margin-top: 80px;
+
     margin-right: -100px;
   }
 
   .Cart_Text {
-    margin-top: 80px;
+
     margin-right: -80px;
   }
 
   .Pick_Yours {
-    margin-top: 35px;
+    margin-top: -30px;
     margin-right: -70px;
   }
   .Header_Logo {
     width: 204px;
-    margin-top: 74px;
     margin-left: 381px;
     margin-right: 50px;
 
   }
   .Header_Menu {
-    margin-top: 82px;
     margin-left: 0px;
 
   }
