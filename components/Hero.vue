@@ -55,13 +55,13 @@ data() {
   text-align: center;
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 421px) {
   .Hero__copy {
     max-width: 300px;
   }
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 421px) {
   .Hero_paragraph {
     padding-top: 20px;
   }
@@ -71,7 +71,7 @@ data() {
   padding-top: 30px;
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 421px) {
   .Hero_button {
     display: none;
   }

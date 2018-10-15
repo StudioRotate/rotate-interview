@@ -57,22 +57,22 @@ name: 'Header'
     padding-right: 20px
   }
   .Header_Menu {
-    width: 20%;
+    width: 26px;
     padding-left: 40px;
     padding-right: 45px
   }
-@media screen and (max-width: 401px) {
+@media screen and (max-width: 421px) {
     .Pick_Yours, .Account_Text, .Cart_Text  {
     display: none;
     }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
   .Header_Cart, .Header_Account {
     display: none;
   }
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
 .Account_Text {
   width: 20%;
   display: inline-block;
