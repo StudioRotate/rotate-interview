@@ -12,6 +12,9 @@
 <div class="Header_Cart">
   <img src="imgs/cart.svg" alt="Cart" class="Cart">
 </div>
+<div class="Pick_Yours">
+  <img src="imgs/hero_button.svg">
+</div>
 
 </section>
 </template>
@@ -33,7 +36,7 @@ name: 'Header'
 
   .Header_Logo {
     width: 137px;
-    
+
   }
 
   .Header_Cart {
@@ -52,6 +55,10 @@ name: 'Header'
     padding-left: 40px;
     padding-right: 45px
   }
-
+@media screen and (max-width: 401px) {
+    .Pick_Yours {
+    display: none;
+    }
+}
 
 </style>
