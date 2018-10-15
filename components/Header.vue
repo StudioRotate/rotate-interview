@@ -21,85 +21,83 @@
     </div>
     <div class="wrapper">
 
-    <input type="checkbox" id="navigation" />
-    <label for="navigation">
+      <input type="checkbox" id="navigation" />
+      <label for="navigation">
         <img src="imgs/rectangle.svg" alt="Menu" class="Menu">
-    </label>
+      </label>
 
-    <nav>
-      <img src="imgs/menu_logo.svg">
+      <nav>
+
         <ul>
-            <li>
-                <a href="">Subscription</a>
-            </li>
-            <li>
-                <a href="">Gifting</a>
-            </li>
-            <li>
-                <a href="">Our Story</a>
-            </li>
-            <li>
-                <a href="">Philosophy</a>
-            </li>
-            <li>
-                <a href="">Home</a>
-            </li>
-            <li>
-                <a href="">Styling</a>
-            </li>
-            <li>
-                <a href="">Care Guide</a>
-            </li>
-            <li>
-                <a href="">My Account</a>
-            </li>
+          <img src="imgs/menu_logo.svg">
+          <li>
+            <a href="">Subscription</a>
+          </li>
+          <li>
+            <a href="">Gifting</a>
+          </li>
+          <li>
+            <a href="">Our Story</a>
+          </li>
+          <li>
+            <a href="">Philosophy</a>
+          </li>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Styling</a>
+          </li>
+          <li>
+            <a href="">Care Guide</a>
+          </li>
+          <li>
+            <a href="">My Account</a>
+          </li>
         </ul>
-    </nav>
-</div>
+      </nav>
+    </div>
 
   </section>
 </template>
 
 <script>
 export default {
-name: 'Header'
+  name: 'Header'
 }
 </script>
 <style>
 @font-face {
-    font-family: "Leighton Light";
-    src: url("/fonts/leighton-light.woff2");
+  font-family: "Leighton Light";
+  src: url("/fonts/leighton-light.woff2");
 }
-  .Header {
-    display: flex;
-    position: fixed;
-    justify-content: space-evenly;
-    width: 100%
-  }
+.Header {
+  display: flex;
+  position: fixed;
+  justify-content: space-evenly;
+  width: 100%
+}
 
-  .Header_Logo {
-    margin-top: 37px;
-    width: 137px;
-  }
+.Header_Logo {
+  width: 137px;
+}
 
-  .Header_Cart {
-    margin-top: 35px;
-    width: 24.44px;
-  }
+.Header_Cart {
+  margin-right: 20px;
+  width: 24.44px;
+}
 
-  .Header_Account {
-    margin-top: 35px;
-    width: 20px;
-  }
-  .Header_Menu {
-    margin-top: 41px;
-    width: 26px;
-  }
+.Header_Account {
+  width: 20px;
+}
+.Header_Menu {
+  width: 26px;
+}
 
 @media screen and (max-width: 427px) {
-    .Pick_Yours, .Account_Text, .Cart_Text  {
+  .Pick_Yours, .Account_Text, .Cart_Text  {
     display: none;
-    }
+  }
 }
 
 @media screen and (min-width: 426px) {
@@ -109,118 +107,116 @@ name: 'Header'
 }
 
 @media screen and (min-width: 426px) {
-.Account_Text {
-  margin-top: 80px;
-  margin-right: -100px;
-}
+  .Account_Text {
+    margin-top: 80px;
+    margin-right: -100px;
+  }
 
-.Cart_Text {
+  .Cart_Text {
+    margin-top: 80px;
+    margin-right: -80px;
+  }
 
-  margin-top: 80px;
-  margin-right: -80px;
-}
+  .Pick_Yours {
+    margin-top: 35px;
+    margin-right: -70px;
+  }
+  .Header_Logo {
+    width: 204px;
+    margin-top: 74px;
+    margin-left: 381px;
+    margin-right: 50px;
 
-.Pick_Yours {
-  margin-top: 35px;
-  margin-right: -70px;
-}
-.Header_Logo {
-  width: 204px;
-  margin-top: 74px;
-  margin-left: 381px;
-  margin-right: 50px;
+  }
+  .Header_Menu {
+    margin-top: 82px;
+    margin-left: 0px;
 
-}
-.Header_Menu {
-
-  margin-top: 82px;
-  margin-left: 0px;
-
-}
+  }
 }
 
 body, html{
-    height:100%;
+  height:100%;
 }
 body{
-    padding:0;
-    margin:0;
+  padding:0;
+  margin:0;
 }
- p, li{
-    font-family:"Leighton Light";
-    color:#fff;
-    margin:0 0 1em;
+p, li{
+  font-family:"Leighton Light";
+  color:#fff;
+  margin:0 0 1em;
 }
 section li{
-    margin:0 0 10px;
+  margin:0 0 10px;
 }
 h1{
-    font-size:2.5em;
-    font-weight:300;
+  font-size:2.5em;
+  font-weight:300;
 }
 p{
-    font-size:1em;
-    line-height:1.5em;
+  font-size:1em;
+  line-height:1.5em;
 }
 section{
-    padding:30px 30px 30px 80px;
-    -moz-transition:all 200ms ease-in;
-    -webkit-transition:all 200ms ease-in;
-    -o-transition:all 200ms ease-in;
-    transition:all 200ms ease-in;
+  padding:30px 30px 30px 80px;
+  -moz-transition:all 200ms ease-in;
+  -webkit-transition:all 200ms ease-in;
+  -o-transition:all 200ms ease-in;
+  transition:all 200ms ease-in;
 
 }
 nav{
-    position:fixed;
-    top:0;
-    left:0;
-    width:250px;
-    height:100%;
-    margin:0 0 0 -250px;
-    -moz-transition:all 200ms ease-in;
-    -webkit-transition:all 200ms ease-in;
-    -o-transition:all 200ms ease-in;
-    transition:all 200ms ease-in;
+  position:fixed;
+  top:0;
+  left:0;
+  width:250px;
+  height:100%;
+  margin:0 0 0 -250px;
+  -moz-transition:all 200ms ease-in;
+  -webkit-transition:all 200ms ease-in;
+  -o-transition:all 200ms ease-in;
+  transition:all 200ms ease-in;
 }
 nav ul{
-    width:250px;
-    height:100%;
-    padding:0;
-    margin:0;
-    list-style:none;
-    background:#fff;
+  width:250px;
+  height:100%;
+  padding:0;
+  margin:0;
+  list-style:none;
+  background:#fff;
 
 }
 nav li{
-    margin:0;
+  margin:0;
 }
 nav a{
-    color:#000;
-    font-size:1em;
-    font-family: "Leighton Light";
-    display:block;
-    padding:12px 15px;
-    letter-spacing:2px;
+  color:#000;
+  font-size:1em;
+  font-family: "Leighton Light";
+  display:block;
+  padding:12px 15px;
+  letter-spacing:2px;
 }
 
 label{
-    display:block;
-    font-family: "Leighton Light";
-    width:42px;
-    position:fixed;
-    left:10px;
-    -moz-transition:all 200ms ease-in;
-    -webkit-transition:all 200ms ease-in;
-    -o-transition:all 200ms ease-in;
-    transition:all 200ms ease-in;
-    z-index:500;
+  display:block;
+  font-family: "Leighton Light";
+  width:42px;
+  position:fixed;
+  left:60px;
+  -moz-transition:all 200ms ease-in;
+  -webkit-transition:all 200ms ease-in;
+  -o-transition:all 200ms ease-in;
+  transition:all 200ms ease-in;
+  z-index:500;
 }
 
 input[type="checkbox"]:checked ~ nav{
-    margin:0;
+  margin:0;
 }
 input[type="checkbox"]:checked ~ label{
-    left:260px;
+  left:260px;
 }
 
 </style>
