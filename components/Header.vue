@@ -27,14 +27,13 @@ name: 'Header'
     position: fixed;
     justify-content: flex-end;
     width: 100%;
-    padding-top: 25px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 30px;
+    margin-top: 20px;
+
   }
 
   .Header_Logo {
     width: 137px;
+    
   }
 
   .Header_Cart {

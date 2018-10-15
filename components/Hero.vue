@@ -29,23 +29,18 @@ data() {
 }
 .Hero {
     display: flex;
-    flex: column nowrap;
     align-items: center;
     justify-content: center;
     background: center;
+    background-image: url(/imgs/home_hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 90vh;
 }
 
-@media screen and (min-width: 401 px) {
-  .Hero {
-  background-image: url(/imgs/hero_background_desktop.jpg);
-  background-size: cover;
-  background-repeat: no-repeat
-   }
-}
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 401px) {
     .Hero {
-    background-image: url(/imgs/home_hero.jpg);
+    background-image: url(/imgs/hero_background_desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     }
