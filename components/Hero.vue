@@ -22,6 +22,7 @@ data() {
   }
 }
 }
+
 </script>
 
 <style>
@@ -40,7 +41,7 @@ data() {
     height: 90vh;
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 426px) {
     .Hero {
     background-image: url(/imgs/hero_background_desktop.jpg);
     background-size: cover;
@@ -55,13 +56,13 @@ data() {
   text-align: center;
 }
 
-@media screen and (min-width: 421px) {
+@media screen and (min-width: 427px) {
   .Hero__copy {
     max-width: 300px;
   }
 }
 
-@media screen and (min-width: 421px) {
+@media screen and (min-width: 427px) {
   .Hero_paragraph {
     padding-top: 20px;
   }
@@ -71,7 +72,7 @@ data() {
   padding-top: 30px;
 }
 
-@media screen and (min-width: 421px) {
+@media screen and (min-width: 427px) {
   .Hero_button {
     display: none;
   }
