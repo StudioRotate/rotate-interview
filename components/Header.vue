@@ -15,6 +15,12 @@
 <div class="Pick_Yours">
   <img src="imgs/hero_button.svg">
 </div>
+<div class="Account_Text">
+  <img src="imgs/my_account_text.svg">
+</div>
+<div class="Cart_Text">
+  <img src="imgs/cart_text.svg">
+</div>
 
 </section>
 </template>
@@ -36,6 +42,7 @@ name: 'Header'
 
   .Header_Logo {
     width: 137px;
+    padding-right: 30px;
 
   }
 
@@ -50,15 +57,38 @@ name: 'Header'
     padding-right: 20px
   }
   .Header_Menu {
-    float: top;
-    width: 20px;
+    width: 20%;
     padding-left: 40px;
     padding-right: 45px
   }
 @media screen and (max-width: 401px) {
-    .Pick_Yours {
+    .Pick_Yours, .Account_Text, .Cart_Text  {
     display: none;
     }
 }
 
+@media screen and (min-width: 400px) {
+  .Header_Cart, .Header_Account {
+    display: none;
+  }
+}
+@media screen and (min-width: 400px) {
+.Account_Text {
+  width: 20%;
+  display: inline-block;
+}
+
+.Cart_Text {
+  width: 20%;
+  display: inline-block;
+}
+.Pick_Yours {
+  width: 20%;
+  display: inline-block;
+}
+.Header_Logo {
+  width: 20%;
+  display: inline-block;
+}
+}
 </style>
