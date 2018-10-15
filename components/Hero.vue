@@ -2,9 +2,11 @@
 <section class="Hero">
   <div class="Hero__copy">
     <h1>{{ title1 }}</h1>
+  <div class="Hero_paragraph">
     <h4>{{ paragraph }}</h4>
   <div class="Hero_button">
     <img src="imgs/hero_button.svg" alt="Home_Button" class="Home_button">
+  </div>
   </div>
   </div>
 </section>
@@ -53,9 +55,28 @@ data() {
   text-align: center;
 }
 
+@media screen and (min-width: 401px) {
+  .Hero__copy {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .Hero_paragraph {
+    padding-top: 20px;
+  }
+}
+
 .Hero_button {
   padding-top: 30px;
 }
+
+@media screen and (min-width: 401px) {
+  .Hero_button {
+    display: none;
+  }
+}
+
 
 
 </style>
